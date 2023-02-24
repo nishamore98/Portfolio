@@ -4,11 +4,20 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
-  background: pink;
+  /* background: black;
+  color: white; */
 }
 .home-wrapper {
   text-align: center;
 }
 .Logo {
   background-image: url(./mine.png);
+  border-radius: 50%;
+}
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
 }
