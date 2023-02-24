@@ -6,13 +6,20 @@ p {
 body {
   /* background: black;
   color: white; */
+  text-align: -webkit-center;
 }
 .home-wrapper {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
 .Logo {
   background-image: url(./mine.png);
-  border-radius: 50%;
+  /* border-radius: 50%; */
+}
+.title-container {
+  /* display: inline-block; */
 }
 h1 {
   margin-bottom: 0;
