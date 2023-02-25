@@ -4,22 +4,56 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
-  /* background: black;
-  color: white; */
   text-align: -webkit-center;
+  font-family: sans-serif;
+}
+.text_align-left {
+  width: 90%;
+  text-align: left;
+}
+img {
+  align-self: center;
 }
 .home-wrapper {
-  text-align: center;
   display: flex;
-  justify-content: space-around;
-  width: 60%;
 }
 .Logo {
   background-image: url(./mine.png);
-  /* border-radius: 50%; */
 }
 .title-container {
-  /* display: inline-block; */
+  text-align: left;
+}
+p.info {
+  text-align: justify;
+  width: 90%;
+  margin-top: 0.5rem;
+}
+.job-title {
+  font-style: italic;
+}
+.skillCard {
+  box-shadow: 0 0 10px #747475;
+  border-radius: 6px;
+  width: 28%;
+  padding: 10px 14px;
+  margin: 1rem;
+  max-width: 30%;
+  justify-content: space-between;
+}
+/* @media screen and (min-width: 1554px) {
+  .skillCard {
+    width: 29%;
+  }
+} */
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons-wrapper {
+  margin-top: 1rem;
+}
+a {
+  margin-right: 0.5rem;
 }
 .modal-wrapper {
   background-color: white;
@@ -32,10 +66,15 @@ body {
 button.continueBtn {
   margin: 1rem 0 !important;
 }
-h1 {
+.mb-0 {
   margin-bottom: 0;
 }
-h2 {
+.mt-0 {
   margin-top: 0;
-  margin-bottom: 0.6rem;
+}
+.mb-05 {
+  margin-bottom: 0.5rem;
+}
+.skill-INFO {
+  width: 100% !important;
 }

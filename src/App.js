@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import Home from './Home';
+import Nav from './Nav';
 import { Modal, Button } from '@mui/material';
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
         </div>
       </Modal>
       <Home />
+      <Nav />
     </div>
   );
 }
