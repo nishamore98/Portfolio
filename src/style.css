@@ -4,6 +4,8 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
+  color: rgb(233, 221, 221);
+  background-color: rgb(32, 28, 28);
   text-align: -webkit-center;
   font-family: sans-serif;
 }
