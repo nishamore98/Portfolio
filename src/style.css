@@ -21,6 +21,17 @@ body {
 .title-container {
   /* display: inline-block; */
 }
+.modal-wrapper {
+  background-color: white;
+  width: 65%;
+  margin-top: 30%;
+}
+.MuiBackdrop-root.MuiModal-backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+button.continueBtn {
+  margin: 1rem 0 !important;
+}
 h1 {
   margin-bottom: 0;
 }
