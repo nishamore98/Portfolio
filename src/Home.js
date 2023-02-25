@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import { LinkedIcon, GithubIcon, EmailIcon } from './Icons';
-import Nav from './Nav';
 
 export default function Home() {
   const data = [
@@ -75,7 +74,6 @@ export default function Home() {
           })}
         </div>
       </div>
-      <Nav />
       {/* <h1 className="mb-0">My work experience</h1>
       <div className="home-wrapper">
         <h3 className="job-title">Frontend Engineer at ITILITE</h3>
