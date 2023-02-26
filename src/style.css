@@ -25,8 +25,8 @@ img {
   background-repeat: no-repeat;
   height: 18rem;
   background-position-x: center;
-  border-radius: 50%;
-  border: 2px solid;
+  /* border-radius: 50%;
+  border: 2px solid; */
   /* margin-right: 20rem; */
 }
 .title-container {
