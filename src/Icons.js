@@ -4,8 +4,8 @@ const LinkedIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 448 512"
-      width="30"
-      height="30"
+      width="35"
+      height="35"
     >
       <path
         fill="rgb(233, 221, 221)"
@@ -19,8 +19,8 @@ const GithubIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 496 512"
-      width="30"
-      height="30"
+      width="35"
+      height="35"
     >
       <path
         fill="rgb(233, 221, 221)"
@@ -34,8 +34,8 @@ const EmailIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width="35"
+      height="35"
       viewBox="0 0 512 512"
     >
       <path

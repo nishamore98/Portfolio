@@ -20,7 +20,12 @@ img {
   display: flex;
 }
 .Logo {
-  background-image: url(./mine.png);
+  background-image: url(./mypic.png);
+  width: 20%;
+  background-repeat: no-repeat;
+  height: 40rem;
+  background-position-x: center;
+  margin-right: 20rem;
 }
 .title-container {
   text-align: left;
@@ -55,12 +60,13 @@ p.info {
   margin-top: 1rem;
 }
 a {
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
 }
 .modal-wrapper {
   background-color: white;
-  width: 65%;
-  margin-top: 30%;
+  width: fit-content;
+  margin-top: 15%;
+  padding: 1rem;
 }
 .modal-wrapper h1 {
   color: black;

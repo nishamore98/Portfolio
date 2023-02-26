@@ -46,21 +46,43 @@ export default function Home() {
             frameworks such as React and Redux. Strong problem-solving skills
             and ability to work well in a team.
           </p>
+          <h2 className="mb-05 ">find me on</h2>
+          <div className="icons-wrapper mt-0">
+            <a href="https://www.linkedin.com/in/nisha-more-a58b72146/">
+              <LinkedIcon />
+            </a>
+            <a href="https://github.com/nishamore98">
+              <GithubIcon />
+            </a>
+            <a href="mailto:nisha.more9498@gmail.com" target="_blank">
+              <EmailIcon />
+            </a>
+            <br />
+            <br />
+            <h2 className="mb-05 ">Educational background</h2>
+            <div>
+              <h4 className="mb-05">
+                Matoshri College Of Engineering and Research center, Nashik -
+                B.E. Electrical{' '}
+              </h4>
+              <p className="mt-0">JUNE 2018 - AUG 2021 CGPA - 7.46</p>
+              <h4 className="mb-05">
+                K.K Wagh Women's Polytechnic, Nashik- Diploma in Electronics and
+                Telecommunication
+              </h4>
+              <p className="mt-0"> JULY 2014 - JUNE 2018 CGPA - 7</p>{' '}
+              <h4 className="mb-05">Projects</h4>{' '}
+              <p className="mt-0">
+                Smart mask vending machine and thermal body temperature
+                monitoring, alert system with automatic sanitiser{' '}
+              </p>
+              <p className="mt-0">Dual input inverter (Solar & AC)</p>
+            </div>
+          </div>
         </div>
         <img className="Logo" width="150" height="150" />
       </div>
-      <h3 className="mb-05 ">find me on</h3>
-      <div className="icons-wrapper mt-0">
-        <a href="https://www.linkedin.com/in/nisha-more-a58b72146/">
-          <LinkedIcon />
-        </a>
-        <a href="https://github.com/nishamore98">
-          <GithubIcon />
-        </a>
-        <a href="mailto:nisha.more9498@gmail.com" target="_blank">
-          <EmailIcon />
-        </a>
-      </div>
+
       <div>
         <h1 className="mb-05">My technical skills</h1>
         <div className="skills-wrapper">
