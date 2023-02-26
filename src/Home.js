@@ -59,30 +59,29 @@ export default function Home() {
             </a>
             <br />
             <br />
-            <h2 className="mb-05 ">Educational background</h2>
-            <div>
-              <h4 className="mb-05">
-                Matoshri College Of Engineering and Research center, Nashik -
-                B.E. Electrical{' '}
-              </h4>
-              <p className="mt-0">JUNE 2018 - AUG 2021 CGPA - 7.46</p>
-              <h4 className="mb-05">
-                K.K Wagh Women's Polytechnic, Nashik- Diploma in Electronics and
-                Telecommunication
-              </h4>
-              <p className="mt-0"> JULY 2014 - JUNE 2018 CGPA - 7</p>{' '}
-              <h4 className="mb-05">Projects</h4>{' '}
-              <p className="mt-0">
-                Smart mask vending machine and thermal body temperature
-                monitoring, alert system with automatic sanitiser{' '}
-              </p>
-              <p className="mt-0">Dual input inverter (Solar & AC)</p>
-            </div>
           </div>
         </div>
         <img className="Logo" width="200" height="300" />
       </div>
-
+      <h2 className="mb-05 ">Educational background</h2>
+      <div>
+        <h4 className="mb-05">
+          Matoshri College Of Engineering and Research center, Nashik - B.E.
+          Electrical{' '}
+        </h4>
+        <p className="mt-0">JUNE 2018 - AUG 2021 CGPA - 7.46</p>
+        <h4 className="mb-05">
+          K.K Wagh Women's Polytechnic, Nashik- Diploma in Electronics and
+          Telecommunication
+        </h4>
+        <p className="mt-0"> JULY 2014 - JUNE 2018 CGPA - 7</p>{' '}
+        <h4 className="mb-05">Projects</h4>{' '}
+        <p className="mt-0">
+          Smart mask vending machine and thermal body temperature monitoring,
+          alert system with automatic sanitiser{' '}
+        </p>
+        <p className="mt-0">Dual input inverter (Solar & AC)</p>
+      </div>
       <div>
         <h1 className="mb-05">My technical skills</h1>
         <div className="skills-wrapper">
