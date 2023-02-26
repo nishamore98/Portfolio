@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img className="Logo" width="150" height="150" />
+        <img className="Logo" width="200" height="300" />
       </div>
 
       <div>

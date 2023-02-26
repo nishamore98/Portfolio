@@ -20,11 +20,13 @@ img {
   display: flex;
 }
 .Logo {
-  background-image: url(./mypic.png);
-  width: 33%;
+  background-image: url(./picture.png);
+  width: 20%;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 18rem;
   background-position-x: center;
+  border-radius: 50%;
+  border: 2px solid;
   /* margin-right: 20rem; */
 }
 .title-container {
