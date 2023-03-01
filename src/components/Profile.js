@@ -119,10 +119,10 @@ export default function Profile() {
       <div>
         <h1 className="mb-05">Get in touch</h1>
         <div className="icons-wrapper mt-0">
-          <a href="7972630959/">
+          <a href="https://www.linkedin.com/in/nishamore98/" target="_blank">
             <LinkedIcon />
           </a>
-          <a href="https://github.com/nishamore98">
+          <a href="https://github.com/nishamore98" target="_blank">
             <GithubIcon />
           </a>
           <a href="mailto:nisha.more9498@gmail.com" target="_blank">
