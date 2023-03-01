@@ -61,12 +61,6 @@ export default function Skills() {
     {
       skill: 'Postman',
     },
-    {
-      skill: 'phpadminer',
-    },
-    {
-      skill: 'Workbench',
-    },
   ];
   return (
     <>
@@ -76,7 +70,7 @@ export default function Skills() {
           {skills.map((item, idx) => {
             return (
               <>
-                <div className="skill-wrapper">
+                <div key={idx} className="skill-wrapper">
                   <h3>{item.skill}</h3>
                   <div className="container">
                     <div
@@ -94,7 +88,7 @@ export default function Skills() {
           {Tools.map((item, idx) => {
             return (
               <>
-                <div className="skill-wrapper">
+                <div key={idx} className="skill-wrapper">
                   <h3>{item.skill}</h3>
                   <div className="container">
                     <div

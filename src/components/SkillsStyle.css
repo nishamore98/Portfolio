@@ -77,3 +77,23 @@ h3 {
     width: 100%;
   }
 }
+.Github {
+  width: 70%;
+  background-color: #724040;
+}
+.VS {
+  width: 80%;
+  background-color: #2a4d4e;
+}
+.Docker {
+  width: 50%;
+  background-color: rgb(56, 56, 100);
+}
+.Jenkins {
+  width: 70%;
+  background-color: rgb(161, 161, 51);
+}
+.Postman {
+  width: 70%;
+  background-color: rgb(145, 229, 18);
+}
