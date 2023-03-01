@@ -8,8 +8,8 @@ import '../style.css';
 export default function () {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route index path="/" element={<Profile />} />
 
