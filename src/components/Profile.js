@@ -34,30 +34,6 @@ export default function Profile() {
     },
   ];
 
-  const softSkills = [
-    {
-      skill: 'Team player',
-    },
-    {
-      skill: 'Creative',
-    },
-    {
-      skill: 'Team building',
-    },
-    {
-      skill: 'Communication',
-    },
-    {
-      skill: 'Collaboration',
-    },
-    {
-      skill: 'Adaptive',
-    },
-
-    {
-      skill: 'Problem solving',
-    },
-  ];
   const Projects = [
     {
       projectName: 'Tic-Tac-Toe',

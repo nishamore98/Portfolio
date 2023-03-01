@@ -66,17 +66,7 @@ h3 {
   width: 70%;
   background-color: #eb9360;
 }
-@media only screen and (max-width: 670px) {
-  .wrapper-skills {
-    display: block !important;
-  }
-  .skill-wrapper {
-    justify-content: space-around;
-  }
-  .skills-heading {
-    width: 100%;
-  }
-}
+
 .Github {
   width: 70%;
   background-color: #724040;
@@ -96,4 +86,31 @@ h3 {
 .Postman {
   width: 70%;
   background-color: rgb(145, 229, 18);
+}
+.soft-skill-wrapper {
+  border-radius: 5%;
+  background: #6897e3;
+  box-shadow: 0 0 5px #919191;
+  padding: 0.5rem;
+  width: fit-content !important;
+}
+.soft-skill-h3 {
+  width: fit-content;
+}
+.skill {
+  width: 45%;
+}
+@media only screen and (max-width: 670px) {
+  .wrapper-skills {
+    display: block !important;
+  }
+  .skill-wrapper {
+    justify-content: space-around;
+  }
+  .skills-heading {
+    width: 100%;
+  }
+  .skill {
+    width: 100%;
+  }
 }

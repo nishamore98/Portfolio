@@ -59,7 +59,34 @@ export default function Skills() {
       skill: 'Jenkins',
     },
     {
-      skill: 'Postman',
+      skill: 'Jira',
+    },
+    {
+      skill: 'GTM',
+    },
+  ];
+  const softSkills = [
+    {
+      skill: 'Team player',
+    },
+    {
+      skill: 'Creative',
+    },
+    // {
+    //   skill: 'Team building',
+    // },
+    {
+      skill: 'Communication',
+    },
+    {
+      skill: 'Collaboration',
+    },
+    {
+      skill: 'Adaptive',
+    },
+
+    {
+      skill: 'Problem solving',
     },
   ];
   return (
@@ -83,23 +110,33 @@ export default function Skills() {
             );
           })}
         </div>
-        <div className="skills-heading">
-          <h1 className="">Tools</h1>
-          {Tools.map((item, idx) => {
-            return (
-              <>
-                <div key={idx} className="skill-wrapper">
-                  <h3>{item.skill}</h3>
-                  <div className="container">
-                    <div
-                      className={clsx(item.skill, 'skill-box')}
-                      width={item.percent}
-                    ></div>
+        <div className="d-flex d-block skill">
+          <div className="skill-container">
+            <h1 className="mb-05">Tools</h1>
+            <div className="skills-wrapper">
+              {Tools.map((item, idx) => {
+                return (
+                  <div key={idx} className="skillCard skill-cards">
+                    <h5 className="info skill-INFO">{item.skill}</h5>
                   </div>
-                </div>
-              </>
-            );
-          })}
+                );
+              })}
+            </div>
+          </div>
+          <div className="d-flex d-block">
+            <div className="skill-container">
+              <h1 className="mb-05">Soft skills</h1>
+              <div className="skills-wrapper">
+                {softSkills.map((item, idx) => {
+                  return (
+                    <div key={idx} className="skillCard skill-cards">
+                      <h5 className="info skill-INFO">{item.skill}</h5>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
