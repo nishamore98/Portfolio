@@ -26,7 +26,7 @@ img {
   background-image: url(./nisha.png);
   width: 40rem;
   background-repeat: no-repeat;
-  height: 17rem;
+  height: 16rem;
   background-position-x: center;
   border-radius: 50%;
   border: 2px solid rgb(204, 204, 204);
@@ -92,6 +92,9 @@ button.continueBtn {
 .mb-05 {
   margin-bottom: 0.5rem;
 }
+.d-flex {
+  display: flex;
+}
 a {
   color: rgb(251, 251, 251);
   text-decoration: none;
@@ -117,6 +120,9 @@ nav {
     position: absolute;
     width: auto;
     top: 3rem;
+  }
+  .d-block {
+    display: block !important;
   }
   .title-container {
     margin-top: 17rem;

@@ -1,0 +1,79 @@
+.container {
+  width: 17rem;
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+  text-align: left;
+}
+.skill-box {
+  /* text-align: center; */
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 20px;
+}
+.skill-wrapper {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+h3 {
+  width: 5rem;
+  display: flex;
+}
+.skills-heading {
+  width: 50%;
+  text-align: left;
+}
+.HTML {
+  width: 80%;
+  background-color: #ee9f9f;
+}
+.CSS {
+  width: 70%;
+  background-color: #00e6ee;
+}
+.JavaScript {
+  width: 70%;
+  background-color: #ddec6e;
+}
+.React {
+  width: 60%;
+  background-color: #43af94;
+}
+.Redux {
+  width: 80%;
+  background-color: #6897e3;
+}
+.NPM {
+  width: 40%;
+  background-color: #aa59d6;
+}
+.MUI {
+  width: 70%;
+  background-color: #943145;
+}
+.Bootstrap {
+  width: 70%;
+  background-color: #a2f69f;
+}
+.SCSS {
+  width: 80%;
+  background-color: #f3a9e9;
+}
+.Agile {
+  width: 70%;
+  background-color: #eb9360;
+}
+@media only screen and (max-width: 670px) {
+  .wrapper-skills {
+    display: block !important;
+  }
+  .skill-wrapper {
+    justify-content: space-around;
+  }
+  .skills-heading {
+    width: 100%;
+  }
+}

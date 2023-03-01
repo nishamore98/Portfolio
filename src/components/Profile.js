@@ -33,6 +33,31 @@ export default function Profile() {
       skill: 'Agile',
     },
   ];
+
+  const softSkills = [
+    {
+      skill: 'Team player',
+    },
+    {
+      skill: 'Creative',
+    },
+    {
+      skill: 'Team building',
+    },
+    {
+      skill: 'Communication',
+    },
+    {
+      skill: 'Collaboration',
+    },
+    {
+      skill: 'Adaptive',
+    },
+
+    {
+      skill: 'Problem solving',
+    },
+  ];
   const Projects = [
     {
       projectName: 'Tic-Tac-Toe',
@@ -62,16 +87,18 @@ export default function Profile() {
         </div>
         <img className="Logo1" width="300" height="300" />
       </div>
-      <div>
-        <h1 className="mb-05">Technical skills</h1>
-        <div className="skills-wrapper">
-          {skills.map((item, idx) => {
-            return (
-              <div key={idx} className="skillCard skill-cards">
-                <h5 className="info skill-INFO">{item.skill}</h5>
-              </div>
-            );
-          })}
+      <div className="d-flex d-block">
+        <div className="skill-container">
+          <h1 className="mb-05">Technical skills</h1>
+          <div className="skills-wrapper">
+            {skills.map((item, idx) => {
+              return (
+                <div key={idx} className="skillCard skill-cards">
+                  <h5 className="info skill-INFO">{item.skill}</h5>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div>
