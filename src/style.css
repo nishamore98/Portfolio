@@ -130,7 +130,7 @@ nav {
   .Logo1 {
     position: absolute;
     width: auto;
-    top: 3rem;
+    top: 4rem;
   }
   .d-block {
     display: block !important;
@@ -146,8 +146,8 @@ nav {
     width: 100%;
   }
   div.skillCard {
-    width: 100%;
-    max-width: 100%;
+    width: 60%;
+    max-width: 60%;
     transition: transform 0.2s;
   }
   div.skillCard .skill-cards {
