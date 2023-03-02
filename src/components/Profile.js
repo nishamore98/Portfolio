@@ -79,7 +79,7 @@ export default function Profile() {
       </div>
       <div>
         <h1 className="mb-05">My projects</h1>
-        <div className="skills-wrapper">
+        <div className="skills-wrapper project-wrapper">
           {Projects.map((item, idx) => {
             return (
               <div key={idx} className="skillCard project-card">
