@@ -100,7 +100,7 @@ h3 {
 .skill {
   width: 45%;
 }
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 1200px) {
   .wrapper-skills {
     display: block !important;
   }
