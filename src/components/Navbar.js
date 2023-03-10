@@ -8,7 +8,7 @@ export default function Navbar() {
         {/* <a href="/">Projects</a> */}
         <Link to="/Skills">Skills</Link>
       </div>
-      <a href="../NishaResume.pdf" download className="cv-btn">
+      <a href="../NishaResume1.pdf" download className="cv-btn">
         Download CV
       </a>
     </nav>
