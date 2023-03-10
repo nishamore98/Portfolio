@@ -131,7 +131,7 @@ nav {
 }
 @media only screen and (max-width: 1200px) {
   .Logo1 {
-    position: absolute;
+    /* position: absolute; */
     width: auto;
     top: 4rem;
   }
@@ -139,14 +139,16 @@ nav {
     display: block !important;
   }
   .title-container {
-    margin-top: 17rem;
+    /* margin-top: 17rem; */
     text-align: center;
   }
   .home-wrapper {
-    justify-content: center;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
   }
   p.info {
-    width: 100%;
+    width: 90%;
   }
   div.skillCard {
     display: flex;

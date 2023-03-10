@@ -58,16 +58,17 @@ export default function Profile() {
           <h1 className="mb-0">Hello, I'm</h1>{' '}
           <h1 className="mt-0">Nisha More</h1>
           <h2 className="mt-0 mb-05 ">Front end react developer</h2>
-          <p className="info mb-0">
-            A highly skilled front end software developer with 1.5 years of
-            experience in developing and designing user-friendly websites and
-            web applications. Proficient in HTML, CSS, JavaScript, and
-            frameworks such as React and Redux. Strong problem-solving skills
-            and ability to work well in a team.
-          </p>
         </div>
+
         <img className="Logo1" width="300" height="300" />
       </div>
+      <p className="info mb-0">
+        A highly skilled front end software developer with 1.5 years of
+        experience in developing and designing user-friendly websites and web
+        applications. Proficient in HTML, CSS, JavaScript, and frameworks such
+        as React and Redux. Strong problem-solving skills and ability to work
+        well in a team.
+      </p>
       <div className="d-flex d-block">
         <div className="skill-container">
           <h1 className="mb-05">Technical skills</h1>
