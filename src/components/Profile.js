@@ -46,7 +46,7 @@ export default function Profile() {
       info: 'Built To-do-list which will offer a way to increase productivity, stopping you from forgetting things, helps prioritise tasks, manage tasks effectively',
     },
     {
-      projectName: 'Employees Profile',
+      projectName: 'Employees Dashboard',
       link: 'https://6405c7087d8cac627bc028bc--super-gnome-a5824a.netlify.app/',
       info: 'Built Employees profile list, which will show information about employees with ability to switch account.Rounting for different pages',
     },
@@ -59,7 +59,6 @@ export default function Profile() {
           <h1 className="mt-0">Nisha More</h1>
           <h2 className="mt-0 mb-05 ">Front end react developer</h2>
         </div>
-
         <img className="Logo1" width="300" height="300" />
       </div>
       <p className="info mb-0">

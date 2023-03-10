@@ -35,6 +35,14 @@ img {
 }
 .title-container {
   text-align: left;
+  animation: flip 2s;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
 }
 p.info {
   text-align: justify;
@@ -164,8 +172,8 @@ nav {
     justify-content: center;
   }
   div.project-card:hover {
-    width: 101%;
-    transform: scale(1.1);
+    /* width: 101%; */
+    transform: scale(1.05);
   }
 }
 .skills-wrapper {
@@ -183,8 +191,8 @@ div.skillCard.skill-cards {
   transition: transform 0.2s;
 }
 .project-card:hover {
-  width: 101%;
-  transform: scale(1.1);
+  /* width: 101%; */
+  transform: scale(1.05);
 }
 h5.info {
   margin: 0;
