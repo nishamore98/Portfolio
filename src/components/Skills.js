@@ -92,7 +92,8 @@ export default function Skills() {
   return (
     <>
       <div className="d-flex wrapper-skills">
-        <div className="skills-heading">
+        <h1>Coming soon</h1>
+        {/* <div className="skills-heading">
           <h1 className="">Technical skills</h1>
           {skills.map((item, idx) => {
             return (
@@ -137,7 +138,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

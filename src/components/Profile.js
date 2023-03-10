@@ -45,6 +45,11 @@ export default function Profile() {
       link: 'https://react-ca1uhf.stackblitz.io',
       info: 'Built To-do-list which will offer a way to increase productivity, stopping you from forgetting things, helps prioritise tasks, manage tasks effectively',
     },
+    {
+      projectName: 'Employees Profile',
+      link: 'https://6405c7087d8cac627bc028bc--super-gnome-a5824a.netlify.app/',
+      info: 'Built Employees profile list, which will show information about employees with ability to switch account.Rounting for different pages',
+    },
   ];
   return (
     <>
