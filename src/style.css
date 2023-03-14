@@ -1,15 +1,38 @@
 h1,
 p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   /* color: rgb(233, 221, 221);
   background-color: rgb(32, 28, 28); */
   text-align: -webkit-center;
-  font-family: sans-serif;
+  font-family: cursive !important;
   width: 100%;
   margin: 0%;
+  color: rgb(117, 29, 60);
+}
+h1,
+p {
+  font-family: cursive !important;
+}
+.m-5 {
+  /* margin: 5rem 0; */
+  padding-top: 6rem;
+}
+.skil {
+  color: #d6597d;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
 }
 .text_align-left {
   width: 90%;
@@ -24,7 +47,7 @@ img {
 }
 .Logo1 {
   background-image: url(./Nisha.png);
-  width: 40rem;
+  /* width: 40rem; */
   background-repeat: no-repeat;
   height: 16rem;
   background-position-x: center;
@@ -35,31 +58,26 @@ img {
 }
 .title-container {
   text-align: left;
-  animation: flip 2s;
-  animation-delay: calc(0.2s * var(--i));
-}
-@keyframes flip {
-  0%,
-  80% {
-    transform: rotateY(360deg);
-  }
 }
 p.info {
   text-align: justify;
   width: 90%;
   margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: large;
 }
 .job-title {
   font-style: italic;
 }
 .skillCard {
-  box-shadow: 0 0 10px #747475;
+  box-shadow: 0 0 10px #8e485d;
   border-radius: 6px;
   width: 28%;
   padding: 10px 14px;
   margin: 1rem;
   max-width: 30%;
   justify-content: space-between;
+  background: rgb(117 29 60);
 }
 /* @media screen and (min-width: 1554px) {
   .skillCard {
@@ -107,36 +125,73 @@ button.continueBtn {
   display: flex;
 }
 a {
-  color: rgb(251, 251, 251);
   text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.3rem !important;
+  color: rgb(209 46 101);
+  font-weight: 600;
 }
 nav {
-  background-color: #24292f;
+  background-image: linear-gradient(to right, white, #eec3cf);
+  /* background-color: white; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
   margin: 0%;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 99999;
+  width: 100%;
 }
 .bg-black a {
-  margin-right: 1rem;
+  margin-right: 2rem;
+  font-size: 1rem;
 }
 .skill-INFO {
   width: 100% !important;
 }
+
+/*bnt animation*/
 .cv-btn {
-  padding: 0.5rem;
-  box-shadow: 0 0 2px rgb(255, 255, 255);
-  color: black;
-  border-radius: 5px;
-  border: none;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 0 2px rgb(255 255 255);
+  border: 1px solid rgb(108, 25, 53);
+  color: rgb(108, 25, 53);
+  border-radius: 1rem;
   font-weight: bold;
-  background-color: white;
   cursor: pointer;
+
+  animation: wiggle 2s linear infinite;
 }
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .Logo1 {
     /* position: absolute; */
@@ -148,7 +203,7 @@ nav {
   }
   .title-container {
     /* margin-top: 17rem; */
-    text-align: center;
+    text-align: left;
   }
   .home-wrapper {
     width: 80%;
@@ -163,6 +218,7 @@ nav {
     width: 40%;
     max-width: 40%;
     transition: transform 0.2s;
+    background: rgb(117 29 60);
   }
   div.skillCard .skill-cards {
     width: 13rem;
@@ -179,13 +235,23 @@ nav {
 .skills-wrapper {
   justify-content: center;
 }
-div.skillCard.skill-cards {
-  width: 7rem !important;
-  color: white;
-  background-color: #24292f;
+div.skill-cards {
+  /* width: 7rem !important; */
+  /* color: white; */
+  max-width: 5rem;
+  max-height: 5rem;
+  padding: 1rem;
+  text-align-last: center;
+  /* background-color: #24292f; */
+}
+div.skill-cards img {
+  object-fit: contain;
+}
+div.skill-cards img.reduxSize {
+  object-fit: cover;
 }
 .skillCard a {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .skillCard {
   transition: transform 0.2s;
