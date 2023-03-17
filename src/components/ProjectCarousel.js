@@ -35,7 +35,7 @@ export default function ProjecctCarousel() {
           {Projects.map((item, index) => (
             <Item key={index}>
               <a className="projectlinks" href={item.link}>
-                <h6>{item.projectName}</h6>
+                <h4 className="projectTitle">{item.projectName}</h4>
                 <p>{item.info}</p>
               </a>
             </Item>

@@ -21,7 +21,7 @@
 h1.name {
   font-size: xxx-large;
   font-weight: 600;
-  color: #d02e65;
+  color: #ce5884;
 }
 h3 {
   width: 5rem;
@@ -127,7 +127,8 @@ div.skill-cards.width-fit-contnt {
 }
 /* for rotation of skill imgs*/
 .rotate:hover {
-  animation: rotation 0.3s 3 linear;
+  transform: scale(1.05);
+  animation: rotation 1s 3 linear;
 }
 .hnvVol {
   display: flex;
@@ -166,6 +167,7 @@ html {
 p.line-1 {
   max-width: 24rem;
   margin: 0;
+  color: #ce5884;
 }
 .line-1 {
   position: relative;

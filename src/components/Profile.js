@@ -117,21 +117,28 @@ export default function Profile() {
   return (
     <>
       <div id="home" className="home-wrapper m-5">
-        <div className="title-container">
-          <h1 className="mt-0 name">Hello, I'm Nisha More</h1>
-          <p className="mt-0 mb-05 line-1 anim-typewriter">
-            Front end react developer
+        <div className="home-container">
+          <div className="title-container">
+            <p className="mt-0 line-1 name ">
+              Hello, this is
+              <br />
+              <span className="myname">Nisha More</span>
+            </p>
+            <br />
+            <p className="mt-0 mb-05 line-1 anim-typewriter">
+              Front end react developer
+            </p>
+          </div>
+          <p className="info mb-0 ">
+            A highly skilled front end software developer with 1.5+ years of
+            experience in developing and designing user-friendly visually
+            appealing websites and web applications. Proficient in HTML, CSS,
+            JavaScript, and libraries such as React and Redux. Strong
+            problem-solving skills and ability to work well in a team. My
+            extensive knowledge of technical standards helps me manage projects
+            efficiently.
           </p>
         </div>
-        <p className="info mb-0 ">
-          A highly skilled front end software developer with 1.5+ years of
-          experience in developing and designing user-friendly visually
-          appealing websites and web applications. Proficient in HTML, CSS,
-          JavaScript, and libraries such as React and Redux. Strong
-          problem-solving skills and ability to work well in a team. My
-          extensive knowledge of technical standards helps me manage projects
-          efficiently.
-        </p>
       </div>
       <div id="skills" className="d-flex d-block m-5">
         <div className="skill-container">
