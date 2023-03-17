@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Profile from "./Profile";
@@ -13,7 +13,7 @@ export default function () {
         <Routes>
           <Route index path="/" element={<Profile />} />
 
-          <Route index path="/Skills" element={<Skills />} />
+          {/* <Route index path="/Skills" element={<Skills />} /> */}
         </Routes>
       </BrowserRouter>
     </>

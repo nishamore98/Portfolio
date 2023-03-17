@@ -127,7 +127,15 @@ div.skill-cards.width-fit-contnt {
 }
 /* for rotation of skill imgs*/
 .rotate:hover {
-  animation: rotation 0.3s infinite linear;
+  animation: rotation 0.3s 3 linear;
+}
+.hnvVol {
+  display: flex;
+  flex-direction: row;
+  width: 70vh;
+}
+.carousel-wrapper {
+  width: 50rem;
 }
 
 @keyframes rotation {
@@ -139,204 +147,58 @@ div.skill-cards.width-fit-contnt {
   }
 }
 
-/*for title animation color*/
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
-
-.title-word-1 {
-  --color-1: #df8453;
-  --color-2: #3d8dae;
-  --color-3: #e4a9a8;
-}
-
-.title-word-2 {
-  --color-1: #dbad4a;
-  --color-2: #accfcb;
-  --color-3: #17494d;
-}
-
-.title-word-3 {
-  --color-1: #accfcb;
-  --color-2: #e4a9a8;
-  --color-3: #accfcb;
-}
-
-.title-word-4 {
-  --color-1: #3d8dae;
-  --color-2: #df8453;
-  --color-3: #e4a9a8;
-}
-
-@keyframes color-animation {
-  0% {
-    color: var(--color-1);
-  }
-  32% {
-    color: var(--color-1);
-  }
-  33% {
-    color: var(--color-2);
-  }
-  65% {
-    color: var(--color-2);
-  }
-  66% {
-    color: var(--color-3);
-  }
-  99% {
-    color: var(--color-3);
-  }
-  100% {
-    color: var(--color-1);
-  }
-}
-
-/* Here are just some visual styles. 🖌 */
-
-/* .container {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  height: 100vh;
-} */
-
 .title {
   font-family: "Montserrat", sans-serif;
   /* font-weight: 800;*/
   font-size: 2rem;
   text-transform: uppercase;
 }
-/* for profile img fade in effect*/
-.fade-in-image {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  transition: opacity 0.5s;
+
+/*fot title of job*/
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+  min-height: 100%;
+  overflow: hidden;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+p.line-1 {
+  max-width: 24rem;
+  margin: 0;
 }
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/*glow on hover*/
-.glow-on-hover {
-  width: 220px;
-  height: 50px;
-  border: none;
-  outline: none;
-  color: white;
-  background-color: rgb(117, 29, 60);
-  cursor: pointer;
+.line-1 {
   position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  transform: scale(1.05);
+  top: 50%;
+  /* width: 24em; */
+  /* margin: 0 auto; */
+  /* width: 24rem !important; */
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
 }
 
-.glow-on-hover:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #c1a5a5,
-    #e39d67,
-    #b8b577,
-    #81ca64,
-    #73b0a6,
-    #667bd7,
-    #ad7bdf,
-    #d466be,
-    #ad7171
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(23) 1s 1 normal both,
+    blinkTextCursor 500ms steps(23) infinite normal;
 }
-
-.glow-on-hover:active {
-  color: rgb(117, 29, 60);
-}
-
-.glow-on-hover:active:after {
-  background: transparent;
-}
-
-.glow-on-hover:hover:before {
-  opacity: 1;
-}
-
-.glow-on-hover:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgb(117, 29, 60);
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  50% {
-    background-position: 400% 0;
+  to {
+    width: 24em;
   }
-  100% {
-    background-position: 0 0;
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
   }
 }
