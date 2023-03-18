@@ -111,20 +111,7 @@ div.skill-cards.width-fit-contnt {
 .tools-softSkills-wrapper {
   display: flex;
 }
-@media only screen and (max-width: 1200px) {
-  .wrapper-skills {
-    display: block !important;
-  }
-  .skill-wrapper {
-    justify-content: space-around;
-  }
-  .skills-heading {
-    width: 100%;
-  }
-  .skill {
-    width: 100%;
-  }
-}
+
 /* for rotation of skill imgs*/
 .rotate:hover {
   transform: scale(1.05);
@@ -165,7 +152,7 @@ html {
 }
 
 p.line-1 {
-  max-width: 24rem;
+  max-width: 19rem;
   margin: 0;
   color: #ce5884;
 }
@@ -185,8 +172,8 @@ p.line-1 {
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 4s steps(23) 1s 1 normal both,
-    blinkTextCursor 500ms steps(23) infinite normal;
+  animation: typewriter 4s steps(15) 1s 1 normal both,
+    blinkTextCursor 500ms steps(15) infinite normal;
 }
 @keyframes typewriter {
   from {
