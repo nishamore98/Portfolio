@@ -96,21 +96,21 @@ a {
   padding: 1rem;
 }
 
-div.dKRZcY {
+div.eXNYHM {
   text-align-last: center;
   padding: 1rem;
   background-color: #0a0909;
   box-shadow: 0 0 15px #4c4444;
 }
-div.dKRZcY a.projectlinks h6 {
+div.eXNYHM a.projectlinks h6 {
   text-align: justify;
   margin: 0;
 }
-div.dKRZcY a.projectlinks {
+div.eXNYHM a.projectlinks {
   margin: 0;
   color: rgb(206 88 132);
 }
-div.dKRZcY a.projectlinks p {
+div.eXNYHM a.projectlinks p {
   font-size: 1rem;
   text-align: justify;
 }
@@ -145,7 +145,7 @@ button.continueBtn {
 a {
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
   color: #ffffff;
   font-weight: 600;
 }
